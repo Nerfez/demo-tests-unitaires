@@ -17,6 +17,6 @@ public class SaisonTest {
 
         assertEquals(Saison.PRINTEMPS, Saison.valueOfLibelle(libelle));
         assertEquals(Saison.AUTOMNE, Saison.valueOfLibelle(libelle2));
-        assertEquals(null, Saison.valueOfLibelle(libelle3));
+        assertNull(Saison.valueOfLibelle(libelle3));
     }
 }
